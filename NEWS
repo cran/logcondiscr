@@ -1,0 +1,3 @@
+logcondiscr_1.0.0 (initial version):
+---------------------------------
+- Provide functions to estimate a log-concave probability mass function.
