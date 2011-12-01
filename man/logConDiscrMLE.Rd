@@ -38,7 +38,7 @@ An Active Set Algorithm for Log-Concave Discrete Distributions.
 \emph{MSc thesis, University of Bern} (Supervisor: Lutz Duembgen).
 }
 \author{
-Kaspar Rufibach (maintainer) \email{kaspar.rufibach@ifspm.uzh.ch} \cr \url{http://www.biostat.uzh.ch/aboutus/people/rufibach.html} \cr
+Kaspar Rufibach (maintainer) \email{kaspar.rufibach@gmail.com} \cr \url{http://www.kasparrufibach.ch} \cr
 Fadoua Balabdaoui \email{fadoua@ceremade.dauphine.fr} \cr \url{http://www.ceremade.dauphine.fr/~fadoua}  \cr
 Hanna Jankowski \email{hkj@mathstat.yorku.ca} \cr \url{http://www.math.yorku.ca/~hkj} \cr
 Kathrin Weyermann \email{kathrin.weyermann@bkw-fmb.ch}
@@ -99,7 +99,7 @@ rand <- rTriangular(n, a, b, c, d, e)$rand
 emp <- table(rand) / n
 x.emp <- names(table(rand))
 
-## set to 1 if the log-concave should be plotted
+## log-concave MLE
 mle <- logConDiscrMLE(rand, output = FALSE)
 
 ## plot log PMF and PMF
@@ -152,10 +152,11 @@ for (i in 1:m){
 }
 
 set.seed(23041977)
-cx <- rmvnorm(1, mean = rep(0, m), sigma = sigma, method = 
+cx <- rep(NA, d - a + 1)
+cx[ind] <- rmvnorm(1, mean = rep(0, m), sigma = sigma, method = 
     c("eigen", "svd", "chol")[3])
 Ux <- rep(NA, length(x))
-Ux[ind] <- cx
+Ux[ind] <- cx[ind]
 
 X <- x[ind]
 Y <- Ux[ind] / p_rs

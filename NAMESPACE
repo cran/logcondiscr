@@ -1,0 +1,23 @@
+## which functions shall be accessible by the users?
+export(
+Direction,
+dMLE,
+dTriangular,
+GradientL,
+HesseL,
+J00,
+J10,
+J11,
+J20,
+kInflatedLogConDiscr,
+LikFunk,
+LocalCoarsen,
+LocalConcavity,
+LocalExtend,
+LocalMLE,
+LocalNormalize,
+logConDiscrCI,
+logConDiscrMLE,
+rTriangular,
+StepSize
+)

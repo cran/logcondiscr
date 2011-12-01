@@ -42,12 +42,36 @@ A simple generator for discrete log-concave distributions.
 \emph{Computing}, \bold{39}, 87-91.
 }
 \author{
-Kaspar Rufibach (maintainer) \email{kaspar.rufibach@ifspm.uzh.ch} \cr \url{http://www.biostat.uzh.ch/aboutus/people/rufibach.html} \cr
+Kaspar Rufibach (maintainer) \email{kaspar.rufibach@gmail.com} \cr \url{http://www.kasparrufibach.ch} \cr
 Fadoua Balabdaoui \email{fadoua@ceremade.dauphine.fr} \cr \url{http://www.ceremade.dauphine.fr/~fadoua}  \cr
 Hanna Jankowski \email{hkj@mathstat.yorku.ca} \cr \url{http://www.math.yorku.ca/~hkj} \cr
 Kathrin Weyermann \email{kathrin.weyermann@bkw-fmb.ch}
 }
 \note{This function is used to generate the plot of the limit process in the help file for the function \code{logConDiscrMLE}.}
+\examples{
+
+## -------------------------------------------------------------
+## compute values of triangular density and simulate from it
+## -------------------------------------------------------------
+a <- 1
+b <- 7
+c <- 8
+d <- 11
+e <- 2
+n <- 10 ^ 2
+
+## support
+x <- seq(a, d, by = 1)
+
+## true density
+dens <- dTriangular(a, b, c, d, e)
+logdens <- log(dens)
+rand <- rTriangular(n, a, b, c, d, e)$rand
+
+## does the same as rTriangular()
+rand2 <- sample(x = a:d, size = n, prob = dens, replace = TRUE)
+}
+
 \keyword{distribtion}
 \keyword{htest}
 \keyword{nonparametric}

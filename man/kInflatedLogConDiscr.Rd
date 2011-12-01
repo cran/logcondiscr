@@ -37,7 +37,7 @@ An Active Set Algorithm for Log-Concave Discrete Distributions.
 \emph{MSc thesis, University of Bern} (Supervisor: Lutz Duembgen).
 }
 \author{
-Kaspar Rufibach (maintainer) \email{kaspar.rufibach@ifspm.uzh.ch} \cr \url{http://www.biostat.uzh.ch/aboutus/people/rufibach.html} \cr
+Kaspar Rufibach (maintainer) \email{kaspar.rufibach@gmail.com} \cr \url{http://www.kasparrufibach.ch} \cr
 Fadoua Balabdaoui \email{fadoua@ceremade.dauphine.fr} \cr \url{http://www.ceremade.dauphine.fr/~fadoua}  \cr
 Hanna Jankowski \email{hkj@mathstat.yorku.ca} \cr \url{http://www.math.yorku.ca/~hkj} \cr
 Kathrin Weyermann \email{kathrin.weyermann@bkw-fmb.ch}

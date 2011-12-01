@@ -8,8 +8,8 @@
 \tabular{ll}{
 Package: \tab logcondiscr \cr
 Type: \tab Package \cr
-Version: \tab 1.0.0 \cr
-Date: \tab 2011-06-20 \cr
+Version: \tab 1.0.1 \cr
+Date: \tab 2011-12-01 \cr
 License: \tab GPL (>=2) \cr
 LazyLoad: \tab yes \cr
 }
@@ -25,7 +25,7 @@ developed in Balabdaoui et al (2011).
 \code{\link{kInflatedLogConDiscr}}: Compute an estimate of a mixture of a log-concave PMF that is inflated at \eqn{k}, from i.i.d. data, using an EM algorithm. 
 }
 \author{
-Kaspar Rufibach (maintainer) \email{kaspar.rufibach@ifspm.uzh.ch} \cr \url{http://www.biostat.uzh.ch/aboutus/people/rufibach.html} \cr
+Kaspar Rufibach (maintainer) \email{kaspar.rufibach@gmail.com} \cr \url{http://www.kasparrufibach.ch} \cr
 Fadoua Balabdaoui \email{fadoua@ceremade.dauphine.fr} \cr \url{http://www.ceremade.dauphine.fr/~fadoua}  \cr
 Hanna Jankowski \email{hkj@mathstat.yorku.ca} \cr \url{http://www.math.yorku.ca/~hkj} \cr
 Kathrin Weyermann \email{kathrin.weyermann@bkw-fmb.ch}
