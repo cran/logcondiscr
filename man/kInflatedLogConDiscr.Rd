@@ -28,7 +28,7 @@ To accomplish this, an EM algorithm is used.}
 \item{logconc.z}{The support of \code{logconc.pmf}.}
 }
 \references{
-Balabdaoui, F., Jankowski, H., and Rufibach, K. (2011).
+Balabdaoui, F., Jankowski, H., Rufibach, K., and Pavlides, M. (2012).
 Maximum likelihood estimation and confidence bands for a discrete log-concave distribution.
 Preprint.
 

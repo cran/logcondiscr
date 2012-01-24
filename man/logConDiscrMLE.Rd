@@ -29,7 +29,7 @@ in \eqn{\{x_1, \ldots, x_n\}}{\{x_1, \ldots, x_n\}} such that
 \item{psiSupp}{\eqn{\psi} interpolated on \code{xSupp}.}
 }
 \references{
-Balabdaoui, F., Jankowski, H., and Rufibach, K. (2011).
+Balabdaoui, F., Jankowski, H., Rufibach, K., and Pavlides, M. (2012).
 Maximum likelihood estimation and confidence bands for a discrete log-concave distribution.
 Preprint.
 

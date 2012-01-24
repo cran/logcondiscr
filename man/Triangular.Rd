@@ -2,7 +2,7 @@
 \alias{dTriangular}
 \alias{rTriangular}
 \title{Functions to compute a and simulate from a triangular probability mass function}
-\description{In Balabdaoui et al (2011) the triangular density, defined as
+\description{In Balabdaoui et al (2012) the triangular density, defined as
 
 \deqn{p_x^{a, b, c, d, e} = c(x - a) / (b - a)}
 
@@ -10,9 +10,7 @@ for \eqn{x \in \{a, \ldots, c\}} and
 
 \deqn{p_x^{a, b, c, d, e} = (e - c)(x - b) / (d - b) + c}
 
-for \eqn{x \in \{c, \ldots, d\}}, was used to illustrate the limit process of the log-concave MLE. In order to provide the code to generate 
-the limit process figure in Balabdaoui et al (2011, see the example in \code{\link{logConDiscrMLE}} for the code to generate that figure) the functions \code{dTriangular} and \code{rTriangular} are included in this package. Note that \code{rTriangular}
-uses the rejection sampling algorithm in Devroye (1987) which was specifically developed to generate random numbers from a log-concave PMF.}
+for \eqn{x \in \{c, \ldots, d\}}, was used to illustrate the limit process of the log-concave MLE. In order to provide the code to generate the limit process figure in Balabdaoui et al (2012, see the example in \code{\link{logConDiscrMLE}} for the code to generate that figure) the functions \code{dTriangular} and \code{rTriangular} are included in this package. Note that \code{rTriangular} uses the rejection sampling algorithm in Devroye (1987) which was specifically developed to generate random numbers from a log-concave PMF.}
 \usage{
 dTriangular(a, b, c, d, e)
 rTriangular(n, a, b, c, d, e)
@@ -33,7 +31,7 @@ rTriangular(n, a, b, c, d, e)
 \item{dens}{Value of the pmf at \eqn{x}.}
 }
 \references{
-Balabdaoui, F., Jankowski, H., and Rufibach, K. (2011).
+Balabdaoui, F., Jankowski, H., Rufibach, K., and Pavlides, M. (2012).
 Maximum likelihood estimation and confidence bands for a discrete log-concave distribution.
 Preprint.
 

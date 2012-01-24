@@ -25,7 +25,7 @@ logConDiscrCI <- function(dat, conf.level = 0.95, type = c("MLE", "all")[1], B =
     mm			<-	length(supp)
     if (identical(type, "all")){knots <- supp}
     if (identical(type, "MLE")){knots <- knotsMLE}
-    knots		<-	unique(sort(c(knots, mm + min(dat))))
+    #knots		<-	unique(sort(c(knots, mm + min(dat))))
         
     lp			<-	rep(0, mm)
     up			<-	rep(0, mm)

@@ -2,7 +2,7 @@
 \alias{logConDiscrCI}
 \title{Compute pointwise confidence bands for the log-concave MLE of a PMF}
 \description{Compute pointwise confidence bands for the log-concave maximum likelihood estimate of a log-concave probability mass function based on the limiting
-theory developed in Balabdaoui et al (2011).}
+theory developed in Balabdaoui et al (2012).}
 \usage{logConDiscrCI(dat, conf.level = 0.95, type = c("MLE", "all")[1], 
     B = 1000, output = TRUE, seed = 2011)}
 \arguments{
@@ -22,7 +22,7 @@ theory developed in Balabdaoui et al (2011).}
   \item{CIs}{The computed confidence intervals for each \eqn{x \in \{}\code{min(dat), ..., max(dat)}\eqn{\}}.}
 }
 \references{
-Balabdaoui, F., Jankowski, H., and Rufibach, K. (2011).
+Balabdaoui, F., Jankowski, H., Rufibach, K., and Pavlides, M. (2012).
 Maximum likelihood estimation and confidence bands for a discrete log-concave distribution.
 Preprint.
 

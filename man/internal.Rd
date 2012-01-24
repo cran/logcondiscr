@@ -60,7 +60,7 @@ Hanna Jankowski \email{hkj@mathstat.yorku.ca} \cr \url{http://www.math.yorku.ca/
 Kathrin Weyermann \email{kathrin.weyermann@bkw-fmb.ch}
 }
 \references{
-Balabdaoui, F., Jankowski, H., and Rufibach, K. (2011).
+Balabdaoui, F., Jankowski, H., Rufibach, K., and Pavlides, M. (2012).
 Maximum likelihood estimation and confidence bands for a discrete log-concave distribution.
 Preprint.
 

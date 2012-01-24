@@ -1,9 +1,14 @@
+logcondiscr_1.0.2 (January 24, 2012):
+-------------------------------------
+- Sligthly modified treatment of knots in logConDiscrCI().
+- Update some paper references.
+
 logcondiscr_1.0.1 (December 1, 2011):
----------------------------------
+-------------------------------------
 - Corrected a minor typo in the help for logConDiscrMLE().
 - Added NAMESPACE
 - Updated KRs contact details
 
 logcondiscr_1.0.0 (initial version):
----------------------------------
+------------------------------------
 - Provide functions to estimate a log-concave probability mass function.
