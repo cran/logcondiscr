@@ -1,3 +1,7 @@
+logcondiscr_1.0.3 (October 6, 2012):
+-------------------------------------
+- Corrected a minor error logConDiscrCI().
+
 logcondiscr_1.0.2 (January 24, 2012):
 -------------------------------------
 - Sligthly modified treatment of knots in logConDiscrCI().

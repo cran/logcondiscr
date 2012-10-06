@@ -26,7 +26,6 @@ logConDiscrCI <- function(dat, conf.level = 0.95, type = c("MLE", "all")[1], B =
     if (identical(type, "all")){knots <- supp}
     if (identical(type, "MLE")){knots <- knotsMLE}
     #knots		<-	unique(sort(c(knots, mm + min(dat))))
-        
     lp			<-	rep(0, mm)
     up			<-	rep(0, mm)
 
@@ -34,6 +33,7 @@ logConDiscrCI <- function(dat, conf.level = 0.95, type = c("MLE", "all")[1], B =
     for (j in 1:(length(knots) - 1)){
 	   r 		<-	knots[j]
 	   s		<-	knots[j + 1]
+       if(j == (length(knots) - 1)){s <- s + 1}
 	   ind		<-	r:(s-1)
 	   p_rs		<-	p.hat[ind - min(dat) + 1]
 	   m		<-	s - r
@@ -67,10 +67,10 @@ logConDiscrCI <- function(dat, conf.level = 0.95, type = c("MLE", "all")[1], B =
         up[ind - min(dat) + 1] <- up1
     }
     
-    lp			<-	p.hat + lp / sqrt(n)
-    up			<-	p.hat + up / sqrt(n)
-    lp			<-	pmax(lp, 0)
-    up			<-	pmin(up, 1)
+    lci <- p.hat - up / sqrt(n)  	# HERE
+    uci <- p.hat - lp / sqrt(n)	# HERE
+    lp  <- pmax(lci, 0)			# HERE
+    up  <- pmin(uci, 1)			# HERE
             
     ## generate output
     res <- list("MLE" = mle, "emp" = cbind("x.emp" = x.emp, "emp" = emp), "CIs" = cbind(supp, lp, up))

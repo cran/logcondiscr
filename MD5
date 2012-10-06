@@ -1,6 +1,6 @@
-bfceb206d4c3d578bad6b99d78d6e115 *DESCRIPTION
+93d796fc19075daf32c17d65e9a6c79d *DESCRIPTION
 bdc0b5dcfe4551299af1b457c51ac1cf *NAMESPACE
-703bee7f595541724fd8f1289f4643a0 *NEWS
+3f4d0b9032531c2e50664625ecfbf961 *NEWS
 d4e04ada91a2e5da44d0401eedc3d202 *R/Direction.r
 1ee92e18a32f119db175bfccf30b5545 *R/GradientL.r
 df39785a3164181a9ae72b332745fffd *R/HesseL.r
@@ -18,7 +18,7 @@ f51bed9d970a2133227300295a5ac833 *R/StepSize.r
 a3aea7f3edcfccf47cea0f8d0fca0c79 *R/dMLE.r
 9467b50fb593347f59549493036881ba *R/dTriangular.r
 aca24ac106333f7c52f88dfecc1e7171 *R/kInflatedLogConDiscr.r
-308e41ba8c7daaba6bcec4116ce0bb66 *R/logConDiscrCI.r
+78eca28649d89ed6f8a85019485f64d2 *R/logConDiscrCI.r
 4cba7b0e6f25aef52e9297964a6b0c2c *R/logConDiscrMLE.r
 187b38b93871edd3647dd2df4ab7e5d6 *R/rTriangular.r
 57609747a3e199a48645251fa806dbfa *man/Triangular.Rd
@@ -26,4 +26,4 @@ aca24ac106333f7c52f88dfecc1e7171 *R/kInflatedLogConDiscr.r
 f3791c83cebdd9cb3edffeaaf7526600 *man/kInflatedLogConDiscr.Rd
 ae0786112c6153d362eb3f7312e539db *man/logConDiscrCI.Rd
 ed1278ae7f5e0b57e6f7bda58fc7fa09 *man/logConDiscrMLE.Rd
-b8884496bbd9efbfb38eebe0e3aded5e *man/logcondiscr-package.Rd
+8e5d81afe6965ef696f7afd8513dd867 *man/logcondiscr-package.Rd

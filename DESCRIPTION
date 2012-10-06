@@ -2,8 +2,8 @@ Package: logcondiscr
 Type: Package
 Title: Estimate a Log-Concave Probability Mass function from Discrete
         i.i.d. Observations
-Version: 1.0.2
-Date: 2012-01-24
+Version: 1.0.3
+Date: 2012-10-06
 Author: Kaspar Rufibach <kaspar.rufibach@gmail.com> and Fadoua
         Balabdaoui <fadoua@ceremade.dauphine.fr> and Hanna Jankowski
         <hkj@mathstat.yorku.ca> and Kathrin Weyermann
@@ -24,6 +24,6 @@ License: GPL (>= 2)
 URL: http://www.kasparrufibach.ch ,
         http://www.ceremade.dauphine.fr/~fadoua ,
         http://www.math.yorku.ca/~hkj
-Packaged: 2012-01-24 09:05:16 UTC; rufibach
+Packaged: 2012-10-06 10:10:22 UTC; rufibach
 Repository: CRAN
-Date/Publication: 2012-01-24 10:50:40
+Date/Publication: 2012-10-06 10:22:29
