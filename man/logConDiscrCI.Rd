@@ -22,9 +22,9 @@ theory developed in Balabdaoui et al (2012).}
   \item{CIs}{The computed confidence intervals for each \eqn{x \in \{}\code{min(dat), ..., max(dat)}\eqn{\}}.}
 }
 \references{
-Balabdaoui, F., Jankowski, H., Rufibach, K., and Pavlides, M. (2012).
+Balabdaoui, F., Jankowski, H., Rufibach, K., and Pavlides, M. (2013).
 Maximum likelihood estimation and confidence bands for a discrete log-concave distribution.
-Preprint.
+\emph{J. R. Stat. Soc. Ser. B Stat. Methodol.}, \bold{75}(4), 769--790. 
 
 Weyermann, K. (2007).
 An Active Set Algorithm for Log-Concave Discrete Distributions.
@@ -34,7 +34,7 @@ An Active Set Algorithm for Log-Concave Discrete Distributions.
 Kaspar Rufibach (maintainer) \email{kaspar.rufibach@gmail.com} \cr \url{http://www.kasparrufibach.ch} \cr
 Fadoua Balabdaoui \email{fadoua@ceremade.dauphine.fr} \cr \url{http://www.ceremade.dauphine.fr/~fadoua}  \cr
 Hanna Jankowski \email{hkj@mathstat.yorku.ca} \cr \url{http://www.math.yorku.ca/~hkj} \cr
-Kathrin Weyermann \email{kathrin.weyermann@bkw-fmb.ch}
+Kathrin Weyermann 
 }
 \note{Values outside \eqn{[0, 1]} will be clipped. As a consequence, coverage may be higher than \eqn{1 - \alpha}.}
 \examples{

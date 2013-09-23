@@ -31,9 +31,9 @@ rTriangular(n, a, b, c, d, e)
 \item{dens}{Value of the pmf at \eqn{x}.}
 }
 \references{
-Balabdaoui, F., Jankowski, H., Rufibach, K., and Pavlides, M. (2012).
+Balabdaoui, F., Jankowski, H., Rufibach, K., and Pavlides, M. (2013).
 Maximum likelihood estimation and confidence bands for a discrete log-concave distribution.
-Preprint.
+\emph{J. R. Stat. Soc. Ser. B Stat. Methodol.}, \bold{75}(4), 769--790. 
 
 Devroye, L. (1987). 
 A simple generator for discrete log-concave distributions. 
@@ -43,7 +43,7 @@ A simple generator for discrete log-concave distributions.
 Kaspar Rufibach (maintainer) \email{kaspar.rufibach@gmail.com} \cr \url{http://www.kasparrufibach.ch} \cr
 Fadoua Balabdaoui \email{fadoua@ceremade.dauphine.fr} \cr \url{http://www.ceremade.dauphine.fr/~fadoua}  \cr
 Hanna Jankowski \email{hkj@mathstat.yorku.ca} \cr \url{http://www.math.yorku.ca/~hkj} \cr
-Kathrin Weyermann \email{kathrin.weyermann@bkw-fmb.ch}
+Kathrin Weyermann 
 }
 \note{This function is used to generate the plot of the limit process in the help file for the function \code{logConDiscrMLE}.}
 \examples{

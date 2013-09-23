@@ -1,11 +1,6 @@
 logConDiscrCI <- function(dat, conf.level = 0.95, type = c("MLE", "all")[1], B = 1e3, output = TRUE, seed = 2011){
 
     dat <- sort(dat)
-
-    ## needs the following packages
-    require(mvtnorm)
-    require(cobs)
-    
     alpha		<-	1 - conf.level
 
     ## log-concave PMF

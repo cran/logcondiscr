@@ -57,12 +57,12 @@ This function is used to compute the value of the log-likelihood in \code{LikFun
 Kaspar Rufibach (maintainer) \email{kaspar.rufibach@gmail.com} \cr \url{http://www.kasparrufibach.ch} \cr
 Fadoua Balabdaoui \email{fadoua@ceremade.dauphine.fr} \cr \url{http://www.ceremade.dauphine.fr/~fadoua}  \cr
 Hanna Jankowski \email{hkj@mathstat.yorku.ca} \cr \url{http://www.math.yorku.ca/~hkj} \cr
-Kathrin Weyermann \email{kathrin.weyermann@bkw-fmb.ch}
+Kathrin Weyermann
 }
 \references{
-Balabdaoui, F., Jankowski, H., Rufibach, K., and Pavlides, M. (2012).
+Balabdaoui, F., Jankowski, H., Rufibach, K., and Pavlides, M. (2013).
 Maximum likelihood estimation and confidence bands for a discrete log-concave distribution.
-Preprint.
+\emph{J. R. Stat. Soc. Ser. B Stat. Methodol.}, \bold{75}(4), 769--790. 
 
 Weyermann, K. (2007).
 An Active Set Algorithm for Log-Concave Discrete Distributions.

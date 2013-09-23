@@ -29,9 +29,9 @@ in \eqn{\{x_1, \ldots, x_n\}}{\{x_1, \ldots, x_n\}} such that
 \item{psiSupp}{\eqn{\psi} interpolated on \code{xSupp}.}
 }
 \references{
-Balabdaoui, F., Jankowski, H., Rufibach, K., and Pavlides, M. (2012).
+Balabdaoui, F., Jankowski, H., Rufibach, K., and Pavlides, M. (2013).
 Maximum likelihood estimation and confidence bands for a discrete log-concave distribution.
-Preprint.
+\emph{J. R. Stat. Soc. Ser. B Stat. Methodol.}, \bold{75}(4), 769--790. 
 
 Weyermann, K. (2007).
 An Active Set Algorithm for Log-Concave Discrete Distributions.
@@ -41,7 +41,7 @@ An Active Set Algorithm for Log-Concave Discrete Distributions.
 Kaspar Rufibach (maintainer) \email{kaspar.rufibach@gmail.com} \cr \url{http://www.kasparrufibach.ch} \cr
 Fadoua Balabdaoui \email{fadoua@ceremade.dauphine.fr} \cr \url{http://www.ceremade.dauphine.fr/~fadoua}  \cr
 Hanna Jankowski \email{hkj@mathstat.yorku.ca} \cr \url{http://www.math.yorku.ca/~hkj} \cr
-Kathrin Weyermann \email{kathrin.weyermann@bkw-fmb.ch}
+Kathrin Weyermann 
 }
 \examples{
 
@@ -77,9 +77,6 @@ mle2 <- logConDiscrMLE(x = unique(x), w = table(x))
 ## Illustrate the limit process: the code below can be used to
 ## to reproduce the limit process figure in Balabdaoui et al (2011)
 ## -------------------------------------------------------------
-library(mvtnorm)
-library(cobs)
-
 a <- 1
 b <- 7
 c <- 8
