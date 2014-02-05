@@ -1,6 +1,10 @@
-logcondiscr_1.0.4 (September 23, 2012):
+logcondiscr_1.0.5 (February 5, 2014):
 -------------------------------------
-- Removed library() command from .rd files (seems to generate a warning on CRAN).
+- Update NAMESPACE.
+
+logcondiscr_1.0.4 (September 23, 2013):
+-------------------------------------
+- Removed library() and require() calls.
 - Updated references.
 
 logcondiscr_1.0.3 (October 6, 2012):

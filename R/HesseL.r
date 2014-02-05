@@ -21,6 +21,6 @@ unDiag <- c(tmpDiag, 0)
 
 # collect results in matrix
 hesseL <- diag(m) * 0
-hesseL <- bandSparse(n = m, k = -1:1, diagonals = list(unDiag, diag, obDiag[-1]))
+hesseL <- Matrix::bandSparse(n = m, k = -1:1, diagonals = list(unDiag, diag, obDiag[-1]))
 return(hesseL)
 }

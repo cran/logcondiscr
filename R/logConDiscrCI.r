@@ -38,8 +38,8 @@ logConDiscrCI <- function(dat, conf.level = 0.95, type = c("MLE", "all")[1], B =
 			GGp		<-	matrix(0, B, m)
 
 			for(i in 1:B){
-            	cx 		<-	rmvnorm(1, mean = rep(0, m), sigma = sigma, method = c("eigen", "svd", "chol")[3])
-            	Res 	<-	conreg(x = ind, y = cx/p_rs, w = p_rs)
+            	cx 		<-	mvtnorm::rmvnorm(1, mean = rep(0, m), sigma = sigma, method = c("eigen", "svd", "chol")[3])
+            	Res 	<-	cobs::conreg(x = ind, y = cx/p_rs, w = p_rs)
             	GGp[i,]	<-	p_rs * Res$yf
             	if(identical(output, TRUE) & (round(i / 100) == i / 100)){print(paste("knot segment ", j, " of ", length(knots) - 1, " / run ", i, " of ", B, sep = ""))}
         		} # end for loop
