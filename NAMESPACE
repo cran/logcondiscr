@@ -21,9 +21,7 @@ export(
     rTriangular,
     StepSize
 )
-importFrom(Matrix,
-            bandSparse)
-importFrom(mvtnorm,
-            rmvnorm)
-importFrom(cobs, 
-            conreg)
+importFrom(stats, qnorm, quantile, rexp, runif)
+importFrom(Matrix, bandSparse)
+importFrom(mvtnorm, rmvnorm)
+importFrom(cobs, conreg)

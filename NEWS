@@ -1,3 +1,7 @@
+logcondiscr_1.0.6 (July 3, 2015):
+-------------------------------------
+- Properly import globals.
+
 logcondiscr_1.0.5 (February 5, 2014):
 -------------------------------------
 - Update NAMESPACE.

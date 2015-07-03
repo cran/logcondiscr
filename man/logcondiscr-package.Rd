@@ -2,14 +2,14 @@
 \alias{logcondiscr-package}
 \alias{logcondiscr}
 \docType{package}
-\title{Compute a log-concave PMF from i.i.d. data}
-\description{This package implements the maximum likelihood estimator (MLE) for a probability mass function (PMF) under the assumption of log-concavity from i.i.d. data.}
+\title{Estimate a Log-Concave Probability Mass Function from Discrete i.i.d. Observations}
+\description{Implements the maximum likelihood estimator (MLE) for a probability mass function (PMF) under the assumption of log-concavity from i.i.d. data.}
 \details{
 \tabular{ll}{
 Package: \tab logcondiscr \cr
 Type: \tab Package \cr
-Version: \tab 1.0.4 \cr
-Date: \tab 2013-09-23 \cr
+Version: \tab 1.0.6 \cr
+Date: \tab 2015-07-03 \cr
 License: \tab GPL (>=2) \cr
 LazyLoad: \tab yes \cr
 }

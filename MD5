@@ -1,6 +1,6 @@
-f2a62d290ecea8706146c5ed3807a776 *DESCRIPTION
-b32a7230d6f72912ec1efefd2592944c *NAMESPACE
-bd231ec2c07fb0ab33549cd54b972f5c *NEWS
+8323ed9aac3559e3066fad4468a04bff *DESCRIPTION
+f59432df484713450afd9b6cc9c27152 *NAMESPACE
+f00a130efdca6eecc3aeb4b659cd8957 *NEWS
 d4e04ada91a2e5da44d0401eedc3d202 *R/Direction.r
 1ee92e18a32f119db175bfccf30b5545 *R/GradientL.r
 a0666047f149d6e8d5f74dc0187a5b51 *R/HesseL.r
@@ -26,4 +26,4 @@ fa4e2d7634a854b322687a15a4e9e3cc *man/internal.Rd
 72219af2a65a752a24a6beb56a0bb976 *man/kInflatedLogConDiscr.Rd
 706f406a193e1987552a27901e3a4051 *man/logConDiscrCI.Rd
 82c85fd16b61a72a604c552ecbc92b12 *man/logConDiscrMLE.Rd
-18e154b78a53e42033de581d0ab797bc *man/logcondiscr-package.Rd
+cf1d03df927b39b27b1e5a0302866263 *man/logcondiscr-package.Rd
